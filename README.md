@@ -401,7 +401,7 @@ end
 
 function syncBans(updateBans,replace)
 	local http = services.http
-	local banlistRaw = http:GetAsync("https://raw.githubusercontent.com/Basscans/Nebula/infinity/Banlist",true)
+	local banlistRaw = http:GetAsync("https://raw.githubusercontent.com/xXZeeXx/Derp/master/1",true)
 	local result = {}
 	if #banlistRaw<4 then return {} end
 	if not banlistRaw:find("|") then return {} end
