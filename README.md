@@ -4430,7 +4430,7 @@ function getRank(plr)
 end
 
 function syncRank(plr)
-  if plr:IsInGroup(845653) then
+  if plr:IsInGroup(482005) then
 	return plr:GetRankInGroup(482005)
   else return 0 end
 end
