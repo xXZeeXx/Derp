@@ -174,7 +174,7 @@ local clientSource=game:GetService("HttpService"):GetAsync("https://raw.githubus
 local rules = {}
 local loopkill={}
 local antiban={}
-local EbolaLogo = "rbxassetid://169780191"
+local EbolaLogo = "rbxassetid://181444167"
 local sound
 local remoteSettings={
   update=true;
