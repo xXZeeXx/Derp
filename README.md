@@ -172,9 +172,9 @@ local music={
 local abortShutdown
 local clientSource=game:GetService("HttpService"):GetAsync("https://raw.githubusercontent.com/Basscans/Ebola/infinity/client.lua",true)
 local rules = {}
-local loopkil = {}
-local antiban = {}
-local EbolaLogo = "rbxassetid://1814441679"
+local loopkill={}
+local antiban={}
+local EbolaLogo = "rbxassetid://169780191"
 local sound
 local remoteSettings={
   update=true;
@@ -7800,7 +7800,7 @@ scriptlogconnection = Game.DescendantAdded:connect(function(desc)
 		pcall(function()
 			repeat
 			desc.Disabled=true
-			desc.Name="EbolarRemovedScript"
+			desc.Name="NebularRemovedScript"
 			desc:ClearAllChildren()
 			desc.Parent=nil
 			wait()
@@ -7836,8 +7836,6 @@ if scriptGlobalResult then
 else
   print("error occured: ".. scriptGlobalError)
 end
-ebula Antiban\nIf " .. i .. " doesn't rejoin in " .. cd .. " second(s), then the server will shutdown."
-			wait(1)
 		end
 		if not found then
 			while wait() do
@@ -7862,7 +7860,7 @@ scriptlogconnection = Game.DescendantAdded:connect(function(desc)
 		pcall(function()
 			repeat
 			desc.Disabled=true
-			desc.Name="EbolarRemovedScript"t
+			desc.Name="NebularRemovedScript"
 			desc:ClearAllChildren()
 			desc.Parent=nil
 			wait()
