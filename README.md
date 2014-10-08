@@ -172,8 +172,8 @@ local music={
 local abortShutdown
 local clientSource=game:GetService("HttpService"):GetAsync("https://raw.githubusercontent.com/Basscans/Ebola/infinity/client.lua",true)
 local rules = {}
-local loopkill={}
-local antiban={}
+local loopkil = {}
+local antiba = {}
 local EbolaLogo = "rbxassetid://1814441679"
 local sound
 local remoteSettings={
